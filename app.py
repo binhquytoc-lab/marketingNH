@@ -2,12 +2,6 @@ import streamlit as st
 import pandas as pd
 from io import BytesIO
 
-from database import (
-    create_table,
-    add_customer,
-    get_customers,
-    delete_customer
-)
 
 
 # =========================
